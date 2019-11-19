@@ -1,0 +1,10 @@
+#Intersection
+
+def Intersection(a, b):
+    c = a + b
+    cc = []
+    d = [c[i] for i in range(len(c)) if c[i] in c[:i]]
+    for i in d:
+        if i not in cc:
+            cc.append(i)
+    return cc
