@@ -1,0 +1,8 @@
+#NotIn
+
+def NotIn(a, b):
+    ls = []
+    for i in a:
+        if i not in b:
+            ls.append(i)
+    return ls
