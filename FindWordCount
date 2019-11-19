@@ -1,0 +1,10 @@
+#FindWordCount
+
+def FindWordCount(file, string):
+    counter = 0
+    with open(file, 'r') as f:
+        for line in f:
+            for word in line.split():
+                if word == string:
+                    counter += 1
+    return counter
