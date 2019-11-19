@@ -1,0 +1,5 @@
+#Union
+
+def Union(a, b):
+    c = a + b
+    return c
