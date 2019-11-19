@@ -1,0 +1,7 @@
+#LoadFile
+
+def LoadFile(file):
+    with open (file, "r") as f:
+        lines = f.readlines()
+    lines = [line.rstrip('\n') for line in open(file)]
+    return lines
