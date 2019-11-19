@@ -1,0 +1,14 @@
+#ScoreFinder
+
+def ScoreFinder(a, b, c):
+    val = 0
+    cc = c
+    aa = [x.upper() for x in a]
+    c = c.upper()
+    for i in aa:
+        if i == c:
+            print('OUTPUT', cc, 'got a score of', b[aa.index(c)])
+            val = 1
+            break
+    if val == 0:
+        print('OUTPUT player not found')
