@@ -1,5 +1,9 @@
 #Union
 
 def Union(a, b):
+    cc = []
     c = a + b
-    return c
+    for i in c:
+        if i not in cc:
+            cc.append(i)
+    return cc
