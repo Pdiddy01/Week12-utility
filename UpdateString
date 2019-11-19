@@ -1,0 +1,5 @@
+#UpdateString
+
+def UpdateString(a, b, c):
+    aa = (''.join((a[:c],b,a[(c+1):])))
+    print('OUTPUT', aa)
